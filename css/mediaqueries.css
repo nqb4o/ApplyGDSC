@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1180px) {
+  /* MAIN */
+  #navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+  }
+  .logo {
+    margin: 5vh 10vw 0 10vw;
+  }
+  .nav {
+    margin: 3vh 0 3vh 0;
+    width: 70%;
+    justify-content: space-between;
+  }
+  #banner {
+    margin: 25vh auto 0 auto;
+    flex-wrap: wrap-reverse;
+    height: 1000px;
+  }
+  .text p {
+    width: 100%;
+  }
+  .cart-menu {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    overflow-x: auto;
+  }
+  .line4 {
+    width: 100%;
+  }
+  .cart-menu-link {
+    gap: 2vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-footer {
+    width: 100%;
+  }
+  .list-menu {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* PAYMENT */
+  .back {
+    margin: 25vh 0 0 5vw;
+  }
+  .input,
+  .output {
+    flex-wrap: wrap;
+  }
+  .phonenumber input,
+  .address input,
+  .summary img,
+  .thanks,
+  .order-box,
+  .cardname input,
+  .cardnum input,
+  .payment,
+  .summary {
+    width: 90vw;
+  }
+  .name,
+  .more-inf {
+    width: 90.5vw;
+  }
+  .name input,
+  .more-inf input {
+    width: 42vw;
+  }
+  .payment,
+  .summary {
+    margin: 84px 0 0 0;
+  }
+  .cont,
+  .thanks img,
+  .thanks button {
+    width: 80vw;
+  }
+}

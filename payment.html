@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/payment.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>DinoPayment</title>
+  </head>
+  <body>
+    <div class="thanks" id="thanks">
+      <div class="cont">
+        <img
+          class="checkIcon"
+          src="images/icon-park-outline_check-one.svg"
+          alt=""
+        />
+        <h2>Thanks for you order!</h2>
+        <p class="intro">The order confirmation has been sent to your @email</p>
+        <img src="images/Line 10.svg" alt="" />
+        <div class="date">
+          <p class="stitle">Transaction Date</p>
+          <p class="scont">Friday, Nov 24, 2023</p>
+        </div>
+        <img src="images/Line 10.svg" alt="" />
+        <div class="method">
+          <p class="stitle">Payment Method</p>
+          <p class="scont">Mastercard</p>
+        </div>
+        <img src="images/Line 10.svg" alt="" />
+        <div class="subTotal">
+          <p>Sub total</p>
+          <p>$ 48.00</p>
+        </div>
+        <img src="images/Line 10.svg" alt="" />
+        <div>
+          <div class="taxCollected">
+            <p>Tax collected</p>
+            <p>$0.8</p>
+          </div>
+          <div class="ship-cost">
+            <p>Shipment cost</p>
+            <p>$ 6.50</p>
+          </div>
+        </div>
+        <img src="images/Line 10.svg" alt="" />
+        <div class="grandTotal">
+          <p>Grand total:</p>
+          <p>$55.30</p>
+        </div>
+        <a href="index.html#products">
+          <button type="button" onclick="closeThanks()">
+            Continue Shopping
+          </button>
+        </a>
+      </div>
+    </div>
+    <div id="container">
+      <div id="navbar">
+        <div class="logo" onclick="closeCart(), closeList()">
+          <img src="images/logo.svg" alt="logo dino" />
+          <p>Dinomerch</p>
+        </div>
+        <nav class="nav">
+          <li class="cart" href="" onclick="openCart()">
+            <img src="images/cart.svg" alt="" />
+            <div>Cart</div>
+          </li>
+          <li class="list" href="" onclick="openList()">
+            <img src="images/ph_heart.svg" alt="" />
+            <div>Wishlist</div>
+          </li>
+        </nav>
+      </div>
+      <div class="cart-menu" id="cart-menu">
+        <div class="cart-menu-links">
+          <div class="cart-menu-link">
+            <img src="images/binhnuoc.svg" alt="" />
+            <div class="prd-name">Dino Light-up Water Bottle</div>
+            <div class="number">
+              <div class="minus"></div>
+              <div class="quantity">1</div>
+              <div class="plus">
+                <div class="ngang"></div>
+                <div class="doc"></div>
+              </div>
+            </div>
+            <div class="price">$24.00</div>
+            <div><img class="trast" src="images/trast.svg" alt="" /></div>
+          </div>
+          <img src="images/Line 4.svg" alt="" />
+        </div>
+        <div class="cart-menu-links">
+          <div class="cart-menu-link">
+            <img src="images/binhnuoc.svg" alt="" />
+            <div class="prd-name">Dino Light-up Water Bottle</div>
+            <div class="number">
+              <div class="minus"></div>
+              <div class="quantity">1</div>
+              <div class="plus">
+                <div class="ngang"></div>
+                <div class="doc"></div>
+              </div>
+            </div>
+            <div class="price">$24.00</div>
+            <div><img class="trast" src="images/trast.svg" alt="" /></div>
+          </div>
+          <img src="images/Line 4.svg" alt="" />
+        </div>
+        <div class="cart-menu-links">
+          <div class="cart-menu-link">
+            <img src="images/binhnuoc.svg" alt="" />
+            <div class="prd-name">Dino Light-up Water Bottle</div>
+            <div class="number">
+              <div class="minus"></div>
+              <div class="quantity">1</div>
+              <div class="plus">
+                <div class="ngang"></div>
+                <div class="doc"></div>
+              </div>
+            </div>
+            <div class="price">$24.00</div>
+            <div><img class="trast" src="images/trast.svg" alt="" /></div>
+          </div>
+          <img src="images/Line 4.svg" alt="" />
+        </div>
+        <div class="cart-menu-links">
+          <div class="cart-menu-link">
+            <img src="images/binhnuoc.svg" alt="" />
+            <div class="prd-name">Dino Light-up Water Bottle</div>
+            <div class="number">
+              <div class="minus"></div>
+              <div class="quantity">1</div>
+              <div class="plus">
+                <div class="ngang"></div>
+                <div class="doc"></div>
+              </div>
+            </div>
+            <div class="price">$24.00</div>
+            <div><img class="trast" src="images/trast.svg" alt="" /></div>
+          </div>
+          <img src="images/Line 4.svg" alt="" />
+        </div>
+        <div class="cart-menu-links">
+          <div class="cart-menu-link">
+            <img src="images/binhnuoc.svg" alt="" />
+            <div class="prd-name">Dino Light-up Water Bottle</div>
+            <div class="number">
+              <div class="minus"></div>
+              <div class="quantity">1</div>
+              <div class="plus">
+                <div class="ngang"></div>
+                <div class="doc"></div>
+              </div>
+            </div>
+            <div class="price">$24.00</div>
+            <div><img class="trast" src="images/trast.svg" alt="" /></div>
+          </div>
+          <img src="images/Line 4.svg" alt="" />
+        </div>
+        <div class="menu-footer">
+          <div>Total : $96.00</div>
+          <a href="payment.html" target="_blank">
+            <button class="checkOut">Checkout</button>
+          </a>
+        </div>
+      </div>
+      <div class="list-menu" id="list-menu">
+        <div class="list-menu-links">
+          <div class="list-menu-link">
+            <img src="images/cocnuoc1.svg" alt="" />
+            <div class="atc-inf">
+              <div class="prd-name">Chrome Dino Mug</div>
+              <div class="price">$14.00</div>
+              <div class="box1">
+                <p>Add to cart</p>
+              </div>
+            </div>
+          </div>
+          <img src="images/Line 4.svg" alt="" />
+        </div>
+        <div class="list-menu-links">
+          <div class="list-menu-link">
+            <img src="images/cocnuoc1.svg" alt="" />
+            <div class="atc-inf">
+              <div class="prd-name">Chrome Dino Mug</div>
+              <div class="price">$14.00</div>
+              <div class="box1">
+                <p>Add to cart</p>
+              </div>
+            </div>
+          </div>
+          <img src="images/Line 4.svg" alt="" />
+        </div>
+        <div class="list-menu-links">
+          <div class="list-menu-link">
+            <img src="images/cocnuoc1.svg" alt="" />
+            <div class="atc-inf">
+              <div class="prd-name">Chrome Dino Mug</div>
+              <div class="price">$14.00</div>
+              <div class="box1">
+                <p>Add to cart</p>
+              </div>
+            </div>
+          </div>
+          <img src="images/Line 4.svg" alt="" />
+        </div>
+        <div class="list-menu-links">
+          <div class="list-menu-link">
+            <img src="images/cocnuoc1.svg" alt="" />
+            <div class="atc-inf">
+              <div class="prd-name">Chrome Dino Mug</div>
+              <div class="price">$14.00</div>
+              <div class="box1">
+                <p>Add to cart</p>
+              </div>
+            </div>
+          </div>
+          <img src="images/Line 4.svg" alt="" />
+        </div>
+        <div class="list-menu-links">
+          <div class="list-menu-link">
+            <img src="images/cocnuoc1.svg" alt="" />
+            <div class="atc-inf">
+              <div class="prd-name">Chrome Dino Mug</div>
+              <div class="price">$14.00</div>
+              <div class="box1">
+                <p>Add to cart</p>
+              </div>
+            </div>
+          </div>
+          <img src="images/Line 4.svg" alt="" />
+        </div>
+      </div>
+      <div class="back">
+        <a href="index.html">
+          <img src="images/Arrow 2.svg" alt="" />
+          <p>Back to homepage</p>
+        </a>
+      </div>
+      <div class="input">
+        <div class="shipping">
+          <p class="title">Shipping Address</p>
+          <div class="shipping-input">
+            <div class="name">
+              <div class="firstname">
+                <p>First Name</p>
+                <input type="" />
+              </div>
+              <div class="lastname">
+                <p>Last Name</p>
+                <input type="" />
+              </div>
+            </div>
+            <div class="phonenumber">
+              <p>Phone Number</p>
+              <input type="" />
+            </div>
+            <div class="address">
+              <p>Street Address</p>
+              <input type="" />
+            </div>
+          </div>
+        </div>
+        <div class="payment">
+          <p class="title">Payment Details</p>
+          <div class="payment-input">
+            <div class="how">
+              <button>
+                <img src="images/ion_card-outline.svg" alt="" />
+                <p>Visa / Mastercard</p>
+              </button>
+            </div>
+            <div class="cardname">
+              <p>Cardholder Name</p>
+              <input type="" />
+            </div>
+            <div class="cardnum">
+              <p>Card Number</p>
+              <input type="" />
+            </div>
+            <div class="more-inf">
+              <div class="date">
+                <p>Expiration Date</p>
+                <input type="" />
+              </div>
+              <div class="cvv">
+                <p>CVV</p>
+                <input type="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="output">
+        <div class="order">
+          <p>Order Details</p>
+          <div class="order-box">
+            <div class="prd-inf">
+              <img src="images/binhnuoc.svg" alt="" />
+              <div class="inf">
+                <p><b>Dino Light-up Water Bottle</b></p>
+                <p>Price: <b>$24.00</b></p>
+                <p>Quantity: <b>01</b></p>
+              </div>
+              <div class="price">$24.00</div>
+            </div>
+            <div class="prd-inf">
+              <img src="images/cocnuoc1.svg" alt="" />
+              <div class="inf">
+                <p><b>Dino Chrome Dino Mug</b></p>
+                <p>Price: <b>$14.00</b></p>
+                <p>Quantity: <b>01</b></p>
+              </div>
+              <div class="price">$14.00</div>
+            </div>
+          </div>
+        </div>
+        <div class="summary">
+          <p>Order Summary</p>
+          <div>
+            <div class="item">
+              <div>Item (2):</div>
+              <div>$ 48.00</div>
+            </div>
+            <div class="shipCost">
+              <div>Shipment Cost:</div>
+              <div>$ 6.50</div>
+            </div>
+            <div class="tax">
+              <div>Tax Collected:</div>
+              <div>$ 0.80</div>
+            </div>
+          </div>
+          <img src="images/Line 4.svg" alt="" />
+          <div class="total">
+            <div>Order total:</div>
+            <div>$55.30</div>
+          </div>
+          <button type="submit" onclick="openThanks()">Confirm order</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      let cart = document.getElementById("cart-menu");
+      function openCart() {
+        cart.classList.add("open-cart");
+      }
+      function closeCart() {
+        cart.classList.remove("open-cart");
+      }
+      let list = document.getElementById("list-menu");
+      function openList() {
+        list.classList.add("open-list");
+      }
+      function closeList() {
+        list.classList.remove("open-list");
+      }
+      let thanks = document.getElementById("thanks");
+
+      function openThanks() {
+        thanks.classList.add("open-thanks");
+      }
+      function closeThanks() {
+        thanks.classList.remove("open-thanks");
+      }
+    </script>
+  </body>
+</html>
